@@ -24,7 +24,7 @@ v1.0 - First release
 */
 /**************************************************************************/
 
-MQ135::MQ135(uint8_t pin, float adcRef = 1, float rload = RLOAD) {
+MQ135::MQ135(uint8_t pin, float adcRef, float rload) {
   _pin = pin;
   _adcRef = adcRef;
   _rload = rload;
